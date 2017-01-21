@@ -407,7 +407,12 @@ background-repeat: repeat-y;
 
 @media screen and (max-width: 800px) { 
 
-.watch img { display: none; }  
+.watch img { display: none; } 
+
+#explore{
+background-position: center;
+background-repeat:repeat;
+} 
 
 }
 
@@ -544,8 +549,6 @@ background-repeat: repeat-y;
 }
 .about{
   background-image: url("../images/music.jpg");
-background-position: 50% 0;
-background-size: contain;
 position: relative;
 background-repeat: repeat;
 }
@@ -603,6 +606,40 @@ background-repeat: repeat;
   border-radius:15px;
   color:#fff;
   font-size:25px;
+}
+
+
+/*
+ *events
+ */
+#events{
+background-image: url("../images/swirl_pattern.png");
+position: relative;
+background-repeat: repeat;
+
+}
+
+.event-tabs{
+  margin:15px;
+  border-radius:15px;
+}
+
+.nav-tabs{
+  background-color:#161616;
+}
+.tab-content{
+    color:#fff;
+    padding:5px
+}
+.nav-tabs > li > a{
+  color:white;
+  border: medium none;
+}
+.nav-tabs > li > a:hover{
+  background-color: #303136 !important;
+    border: medium none;
+    border-radius: 0;
+    color:#fff;
 }
 
 
@@ -708,11 +745,11 @@ background-repeat: repeat;
  */
 .faq{
 background-color:#f8f8f8;
-background-image: url("../images/music.jpg");
+background-image: url("../images/performar-bg.jpg");
 background-position: 50% 0;
 background-size: contain;
 position: relative;
-background-repeat: repeat-y;
+background-repeat: repeat;
 
 }
 
@@ -778,8 +815,6 @@ background-repeat: repeat-y;
 
 .location{
 background-image: url("../images/music.jpg");
-background-position: 50% 0;
-background-size: contain;
 position: relative;
 background-repeat: repeat;
 
