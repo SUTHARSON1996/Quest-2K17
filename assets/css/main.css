@@ -405,10 +405,13 @@ background-repeat: repeat-y;
   top: 7%;
 }
 
-@media screen and (max-width: 800px) { 
+@media screen and (max-width: 1140px) { 
 
 .watch img { display: none; } 
 
+}
+
+@media screen and (max-width:800px){
 #explore{
 background-position: center;
 background-repeat:repeat;
@@ -502,6 +505,8 @@ background-repeat:repeat;
 
 .timer-text{
   font-size:15px;
+  color:white;
+  text-align: center;
 }
 
 .cart {
